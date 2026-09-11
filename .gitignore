@@ -1,0 +1,9 @@
+/bin/
+/dist/
+*.csv
+*.jsonl
+*.log
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
