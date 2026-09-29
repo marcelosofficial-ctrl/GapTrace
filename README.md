@@ -4,6 +4,18 @@ GapTrace is a tiny Windows network micro-outage recorder written in Go.
 
 It is designed for failures that disappear before you can diagnose them: a game disconnects, a server browser briefly goes offline, a download stalls, or tethering drops for a few seconds and then recovers.
 
+## Download
+
+Current Windows release: **GapTrace 1.0.0**
+
+- [Download GapTrace 1.0.0](https://github.com/marcelosofficial-ctrl/GapTrace/releases/tag/v1.0.0)
+- Release ZIP: `GapTrace-1.0.0-win-x64.zip`
+- SHA-256: `1daa628b57a09d23a7de5bedb12c770b4adb5b8adda78196ff5148636eda5b66`
+- [Portfolio case study](https://marcelosofficial-ctrl.github.io/portfolio/projects/gaptrace/)
+
+The release is a standalone Windows x64 build with no cloud service or account requirement.
+
+
 GapTrace concurrently checks three layers:
 
 - **DNS** through the system resolver
