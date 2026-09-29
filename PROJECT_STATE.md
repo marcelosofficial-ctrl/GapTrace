@@ -14,7 +14,7 @@ GT-01: Go bootstrap, probe primitives, classification, CLI foundation. COMPLETE.
 GT-02: continuous monitor, CSV evidence, summary reporting, live validation. COMPLETE.
 GT-03: strict analysis, outage extraction, recovery detection, defensive evidence validation. COMPLETE.
 GT-04: resource validation, documentation, standalone packaging, clean extraction validation. COMPLETE.
-GT-1.0: GitHub publication and portfolio integration. DEFERRED.
+GT-1.0: GitHub publication and portfolio integration. COMPLETE.
 
 ## Architecture
 
@@ -52,13 +52,14 @@ Peak private memory: 48.8 MB
 CPU time over 10 seconds: 0.016 s
 Resource samples: 20
 
-## Local 1.0 release candidate
+## Published 1.0 release
 
 Version: 1.0.0
 Target: Windows x64
 Executable: standalone Go binary
 Executable size: 6812.5 KiB
-ZIP: dist/release/GapTrace-1.0.0-win-x64.zip
+Release: https://github.com/marcelosofficial-ctrl/GapTrace/releases/tag/v1.0.0
+ZIP: GapTrace-1.0.0-win-x64.zip
 ZIP size: 2868.2 KiB
 ZIP SHA-256: 1daa628b57a09d23a7de5bedb12c770b4adb5b8adda78196ff5148636eda5b66
 
@@ -72,11 +73,16 @@ It does not capture packets, intercept traffic, inspect payloads, modify network
 
 ## GitHub status
 
-Development remains local.
-No GitHub operations or GitHub Actions were used.
+Public repository: https://github.com/marcelosofficial-ctrl/GapTrace
+Public release: v1.0.0
+Release asset: GapTrace-1.0.0-win-x64.zip
+Release ZIP SHA-256: 1daa628b57a09d23a7de5bedb12c770b4adb5b8adda78196ff5148636eda5b66
+Portfolio case study: https://marcelosofficial-ctrl.github.io/portfolio/projects/gaptrace/
 
-## Next
+The public repository and v1.0.0 release are live.
 
-Freeze GapTrace 1.0 locally.
+## Current maintenance state
 
-Future development should move to the next Focused Project rather than expand GapTrace 1.0.
+GapTrace 1.0.0 is released and feature-complete for its current focused-tool scope.
+
+Future development should be driven by a real network-diagnostics requirement or optional RevDev/Dev Relay provider integration rather than expanding 1.0 without a concrete need.
